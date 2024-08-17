@@ -21,13 +21,13 @@ export default function Hero() {
                 />
             </div>
 
-            <div className="absolute left-0 top-0 flex h-screen w-full items-center justify-center bg-white bg-grid-black/[0.2] dark:bg-black-100 dark:bg-grid-white/[0.1]">
-                <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100" />
+            <div className="absolute left-0 top-0 flex h-screen w-full items-center justify-center bg-white opacity-30 bg-dot-black/[0.2] dark:bg-black dark:bg-dot-white/[1]">
+                <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black" />
             </div>
 
             <div className="relative z-10 my-20 flex justify-center">
                 <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
-                    <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100 opacity-30">
+                    <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100 opacity-40">
                         I don&apos;t make spelling mistakes. But when I do,
                         it&apos;s probably intentional.
                     </h2>
