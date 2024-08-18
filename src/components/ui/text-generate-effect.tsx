@@ -42,7 +42,7 @@ export const TextGenerateEffect = ({
                     return (
                         <motion.span
                             key={word + idx}
-                            className={`${idx > 3 ? "text-purple" : "text-black dark:text-white"} opacity-0 ${fontRG.className}`}
+                            className={`${idx > 3 ? "text-indigo-600" : "text-black dark:text-white"} opacity-0 ${fontRG.className}`}
                             style={{
                                 filter: filter ? "blur(10px)" : "none",
                             }}
